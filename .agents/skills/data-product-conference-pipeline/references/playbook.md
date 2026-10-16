@@ -24,9 +24,9 @@ Use synthetic data and a workload evaluation worksheet. Qualify source/destinati
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: A before/during/after plan, demo brief, conversation prompts, capture schema, follow-up drafts, ownership, and measurement definitions.
+Demo uses synthetic Postgres records and a hosted warehouse; connectivity and credentials are still required for a live run. Prepare a labelled recording and static before/after reconciliation table for a network failure. Do not advertise a "no-network live demo". A useful next step is an agreed synthetic evaluation with an owner; a badge scan alone is not pipeline.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

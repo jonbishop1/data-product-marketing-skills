@@ -24,9 +24,9 @@ Pair task-specific demand with a credible workload evaluation and a path through
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: A decision summary, sequenced plan, owner and resource table, measurement definitions, and an experiment backlog with explicit tradeoffs.
+Five hours available; selected support notes mention credentials. Hypothesis: access clarity slows evaluation. Draft a synthetic evaluation path and admin handoff checklist (2h), technical review (1h), one permitted walkthrough if available (1h), review unresolved issues (1h). Do not call this a proven binding constraint. Keep useful synthetic work available during access review; add distribution after evidence warrants the priority.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

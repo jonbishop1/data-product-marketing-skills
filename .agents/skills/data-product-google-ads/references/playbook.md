@@ -24,9 +24,9 @@ Tie terms to supported workload and connector needs. Qualification may require d
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: Campaign and ad-group structure, example ads, intent and exclusion rationale, landing-path requirements, budget scenarios, and downstream measurement and decision rules.
+Facts: documented source/destination pair and initial synthetic reconciliation. Draft headline: "Evaluate Incremental Ingestion". Description: "Inspect a synthetic source-to-destination example. Plan the correctness checks for your workload." Review production and platform queries against documented fit rather than claiming support. Budget and conversion-upload configuration remain pending supplied account facts; drafting does not spend.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

@@ -24,9 +24,9 @@ Address approved data access, reconciliation, production operation, retention, p
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Application brief
 
-For this scenario, apply the task-specific method above and deliver: A discovery or evaluation plan, role map, evidence-backed objection table, champion brief, and owned next step.
+Deliver: A discovery or evaluation plan, role map, evidence-backed objection table, champion brief, and owned next step.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

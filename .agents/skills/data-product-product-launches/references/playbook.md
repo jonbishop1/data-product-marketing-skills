@@ -24,9 +24,9 @@ Verify connector behavior, data access scope, evaluation dataset, reconciliation
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: A readiness decision, launch brief, owned checklist and schedule, announcement drafts, support and recovery plan, and downstream measurement.
+Initial synthetic equality observed; updates/recovery untested. Recommend a scoped evaluation preview describing the initial example. Full production-readiness language remains blocked on the relevant verified gates. Provide the announcement draft now, with its scope explicit, and list tests as pending rather than calling readiness GO.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

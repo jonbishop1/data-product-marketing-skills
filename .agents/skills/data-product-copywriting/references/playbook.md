@@ -24,9 +24,13 @@ Explain what happens to data, how results are validated, and the workflow improv
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: Finished copy or a prioritized critique, supporting evidence for material claims, and limited alternatives with a rationale.
+Facts: initial synthetic records matched between source and destination; inserts/updates documented; propagation not tested.
+
+Finished copy: **Evaluate incremental ingestion with a reconciled sample.** Start with a synthetic source-to-destination example whose initial keys and values match. Inserts and updates are documented; test change propagation for your evaluation before relying on it. **CTA: Inspect the synthetic example.**
+
+The initial comparison supports the initial-state claim, not "updates verified". Keep missing certifications and customer quotes out of this copy.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 
