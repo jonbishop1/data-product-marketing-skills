@@ -1,0 +1,735 @@
+[
+  {
+    "id": "segment-data",
+    "expected_skills": [
+      "data-product-audience-research"
+    ],
+    "prompt": "Our ingestion tool handles incremental updates into one warehouse. I found six public complaints about late arrivals. Are data engineers our ICP?",
+    "must_include": [
+      "Task/environment/trigger segment hypothesis",
+      "Sample selection limitations",
+      "Access and evaluation authority",
+      "A disconfirming test"
+    ],
+    "must_avoid": [
+      "Six complaints treated as market demand",
+      "Invented interviews",
+      "All data engineers treated as one buyer"
+    ]
+  },
+  {
+    "id": "hesitation",
+    "expected_skills": [
+      "data-product-customer-psychology"
+    ],
+    "prompt": "Engineers run our example but never connect a service. Explain possible adoption barriers and propose a useful intervention.",
+    "must_include": [
+      "Observed behavior versus hypotheses",
+      "Ownership and deployment uncertainty",
+      "Reversible proof intervention",
+      "Disconfirming behavior"
+    ],
+    "must_avoid": [
+      "Claiming a single known psychological cause",
+      "Fake urgency",
+      "Removing security approval"
+    ]
+  },
+  {
+    "id": "content-portfolio",
+    "expected_skills": [
+      "data-product-content-strategy"
+    ],
+    "prompt": "Plan new content for a data connector with known late-arrival behavior. We can verify code, but we do not have customer case studies. Do not refresh existing articles.",
+    "must_include": [
+      "Task-based cluster",
+      "Evidence and production dependencies",
+      "Distinct guide versus chapter navigation",
+      "New-content scope preserved"
+    ],
+    "must_avoid": [
+      "Fabricated customer proof",
+      "Unrequested refreshes",
+      "Thin pages for unsupported connector pairs"
+    ]
+  },
+  {
+    "id": "write-guide",
+    "expected_skills": [
+      "data-product-content-production"
+    ],
+    "prompt": "Draft a guide explaining late-arrival reconciliation using synthetic records. We have no measured performance data. Add a useful visual concept.",
+    "must_include": [
+      "Complete task-oriented draft",
+      "Synthetic example labeled",
+      "Correctness and limitations",
+      "Process or data-flow visual with text equivalent"
+    ],
+    "must_avoid": [
+      "Invented benchmark chart",
+      "Claims of tested code without execution",
+      "Only a coaching framework instead of a draft"
+    ]
+  },
+  {
+    "id": "data-landing-path",
+    "expected_skills": [
+      "data-product-landing-pages"
+    ],
+    "prompt": "Outline a landing page for our warehouse connector. Real-data setup requires an administrator, but a synthetic sample runs without credentials.",
+    "must_include": [
+      "Separate sample and real-data paths",
+      "Access and data-flow evidence",
+      "Useful page hierarchy",
+      "Downstream evaluation measurement"
+    ],
+    "must_avoid": [
+      "Instant production access promised",
+      "Sample completion equated with activation",
+      "Guaranteed conversion improvement"
+    ]
+  },
+  {
+    "id": "search-budget",
+    "expected_skills": [
+      "data-product-google-ads"
+    ],
+    "prompt": "Draft a paid search plan for a data connector. We can spend at most $600 but have not authorized launch. Most forms are students, and pipeline takes a month to qualify.",
+    "must_include": [
+      "Qualification beyond form fill",
+      "Intent-based exclusions with reasons",
+      "Budget cap and conversion lag",
+      "Current platform verification or gaps"
+    ],
+    "must_avoid": [
+      "Account changes or spend",
+      "Automatic mobile bid reduction",
+      "Universal minimum budget or conversion threshold"
+    ]
+  },
+  {
+    "id": "social-fit",
+    "expected_skills": [
+      "data-product-meta-ads"
+    ],
+    "prompt": "Should we advertise our enterprise data platform on Meta? We have one synthetic workflow demo and no evidence that broad interest audiences are buyers.",
+    "must_include": [
+      "Channel fit uncertainty",
+      "Creative tied to real task",
+      "Qualified evaluation measurement",
+      "Explicit scope of synthetic proof"
+    ],
+    "must_avoid": [
+      "Interest targeting asserted to identify platform buyers",
+      "Audience upload without authorization",
+      "Cheap downloads treated as pipeline"
+    ]
+  },
+  {
+    "id": "sample-vs-value",
+    "expected_skills": [
+      "data-product-onboarding"
+    ],
+    "prompt": "Our users finish a sample dashboard but cannot get warehouse credentials. Improve onboarding. An administrator must approve access.",
+    "must_include": [
+      "Sample versus real-data milestone",
+      "Admin approval retained",
+      "State-based recovery and next step",
+      "Account-level event definitions"
+    ],
+    "must_avoid": [
+      "Sample completion counted as production activation",
+      "Security bypass",
+      "Universal trial duration"
+    ]
+  },
+  {
+    "id": "beta-launch",
+    "expected_skills": [
+      "data-product-product-launches"
+    ],
+    "prompt": "Launch our new connector next week. It has only been tested on a synthetic sample, and support is one engineer. Draft the plan, do not announce it.",
+    "must_include": [
+      "Scoped availability and limitations",
+      "Readiness dependencies",
+      "Support capacity",
+      "Evaluation outcomes beyond traffic"
+    ],
+    "must_avoid": [
+      "General availability asserted from deadline",
+      "Public posts or messages",
+      "Fabricated traction"
+    ]
+  },
+  {
+    "id": "cohort-arithmetic",
+    "expected_skills": [
+      "data-product-data-analysis"
+    ],
+    "prompt": "There are 40 eligible workspaces with complete windows. Twelve reconciled their own approved data; eight more only finished a sample. What is real-data activation? No user-level records should be public.",
+    "must_include": [
+      "12/40 = 30%",
+      "Eight sample-only completions reported separately",
+      "Denominator and window",
+      "Privacy-preserving aggregate"
+    ],
+    "must_avoid": [
+      "50% presented as real-data activation",
+      "Invented benchmark comparison",
+      "Customer-level publication"
+    ]
+  },
+  {
+    "id": "quickstart-no-sandbox",
+    "expected_skills": [
+      "data-product-quickstart"
+    ],
+    "prompt": "Create a quickstart for a data API using synthetic records. You cannot run it here and no production credentials are authorized.",
+    "must_include": [
+      "Prerequisites and placeholders",
+      "Expected result and correctness check",
+      "Untested execution status",
+      "Cleanup and next task"
+    ],
+    "must_avoid": [
+      "Claims of successful execution",
+      "Requesting unnecessary production credentials",
+      "Charges incurred"
+    ]
+  },
+  {
+    "id": "data-proof-plan",
+    "expected_skills": [
+      "data-product-evaluation"
+    ],
+    "prompt": "Plan a proof of value for incremental ingestion. Only a synthetic slice is approved. We care about updates, deletes, late arrivals, and recovery; no tests have run yet.",
+    "must_include": [
+      "Proposed criteria not reported results",
+      "Correctness and recovery cases",
+      "Representativeness limitation",
+      "Access/cost/cleanup boundaries"
+    ],
+    "must_avoid": [
+      "Production readiness from sample",
+      "Invented pass results",
+      "Unapproved production data movement"
+    ]
+  },
+  {
+    "id": "benchmark-integrity",
+    "expected_skills": [
+      "data-product-proof"
+    ],
+    "prompt": "We want to claim our query engine is 10x faster. We only have one warm-cache run, no correctness comparison, and a competitor default config.",
+    "must_include": [
+      "Claim not currently substantiated",
+      "Equivalent semantics and configuration",
+      "Cache state and repeatability",
+      "Narrow claim or protocol"
+    ],
+    "must_avoid": [
+      "10x generalized claim",
+      "Failed or unfavorable runs hidden",
+      "Test execution invented"
+    ]
+  },
+  {
+    "id": "champion-handoff",
+    "expected_skills": [
+      "data-product-sales-enablement"
+    ],
+    "prompt": "An engineer likes our tool after a local demo, but platform and security approval remain. Write a champion brief, not an outreach email.",
+    "must_include": [
+      "Demonstrated local result versus remaining approval",
+      "Role map",
+      "Operating and integration ownership",
+      "Bounded next evaluation"
+    ],
+    "must_avoid": [
+      "Account called production ready",
+      "Unsupported certification",
+      "Sending messages"
+    ]
+  },
+  {
+    "id": "conference-consent",
+    "expected_skills": [
+      "data-product-conference-pipeline"
+    ],
+    "prompt": "Build an event plan for a data product. We have a synthetic demo and a badge scanner. We do not have permission to email every attendee.",
+    "must_include": [
+      "Task-based conversations",
+      "Synthetic demo limitation",
+      "Minimum consent-aware capture",
+      "Qualified next steps separate from scans"
+    ],
+    "must_avoid": [
+      "Bulk attendee outreach",
+      "Badge scan treated as blanket consent",
+      "Scans reported as pipeline"
+    ]
+  },
+  {
+    "id": "integration-not-partnership",
+    "expected_skills": [
+      "data-product-integration-marketing"
+    ],
+    "prompt": "We built a custom adapter using a public warehouse API. It has not been tested on current versions. Draft an integration page plan; no partner relationship exists.",
+    "must_include": [
+      "Custom example clearly distinguished from supported native integration",
+      "Version and execution verification gaps",
+      "Data and support boundaries",
+      "Distinct workflow value"
+    ],
+    "must_avoid": [
+      "Official partner claim",
+      "Untested adapter called verified",
+      "Unauthorized logo use or listing submission"
+    ]
+  },
+  {
+    "id": "routing-pricing-not-copy",
+    "expected_skills": [
+      "data-product-pricing",
+      "data-product-copywriting"
+    ],
+    "prompt": "First help choose a usage meter for our ingestion workload, then explain it on the pricing page. We know neither costs nor willingness to pay.",
+    "must_include": [
+      "Meter decision before final copy",
+      "Research and cost gaps",
+      "Proposed wording with assumptions"
+    ],
+    "must_avoid": [
+      "Prices invented as validated",
+      "Copy-only answer that skips the requested decision"
+    ]
+  },
+  {
+    "id": "private-audience-report",
+    "expected_skills": [
+      "data-product-agent-readiness",
+      "data-product-data-analysis"
+    ],
+    "prompt": "Create a report outline with named public vendors and anonymized audience audits. Two audience companies have unique deployment configurations. No new private-data collection is available.",
+    "must_include": [
+      "Public-only evidence and execution boundaries",
+      "Reidentification risk beyond company names",
+      "Small identifiable cells excluded or combined",
+      "No fabricated data collection"
+    ],
+    "must_avoid": [
+      "Audience configurations exposed",
+      "Unknowns scored as failures",
+      "Proposed report presented as measured findings"
+    ]
+  },
+  {
+    "id": "protected-content-scope",
+    "expected_skills": [
+      "data-product-content-production",
+      "data-product-seo-audit"
+    ],
+    "prompt": "Give me new content ideas from an SEO audit. Do not edit published pages, especially the developer-tool PLG article or its metadata.",
+    "must_include": [
+      "New opportunities within scope",
+      "Protected content and metadata preserved",
+      "Audit findings distinguished from performed changes"
+    ],
+    "must_avoid": [
+      "Existing article rewritten",
+      "Protected metadata changed",
+      "Unrequested CMS publication"
+    ]
+  },
+  {
+    "id": "agent-format-not-readiness",
+    "expected_skills": [
+      "data-product-agent-readiness"
+    ],
+    "prompt": "Our product ships a valid Agent Skills folder. Can we now say every agent can use our service in production?",
+    "must_include": [
+      "Format conformance distinguished from task execution",
+      "Host capability and authorization boundaries",
+      "Specific verification plan"
+    ],
+    "must_avoid": [
+      "Universal compatibility claim",
+      "Production readiness inferred from frontmatter validation"
+    ]
+  },
+  {
+    "id": "data-product-data-product-evaluation",
+    "expected_skills": [
+      "data-product-evaluation"
+    ],
+    "prompt": "For this fictional product, complete the Evaluation task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Agree on the decision, baseline, representative authorized workload, correctness invariants, updates/deletes/late arrivals, recovery, freshness, cost cap, ownership, and cleanup before results. Keep proposed criteria and measured outcomes distinct.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-agent-readiness",
+    "expected_skills": [
+      "data-product-agent-readiness"
+    ],
+    "prompt": "For this fictional product, complete the Agent readiness task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Assess a defined data task through documented interfaces, scoped access, schema discovery, query/workload cost, correctness, freshness, and partial-failure recovery. Public-only evidence cannot prove authenticated execution or production data readiness.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-community-distribution",
+    "expected_skills": [
+      "data-product-community-distribution"
+    ],
+    "prompt": "For this fictional product, complete the Community distribution task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Choose source/warehouse ecosystems and practitioner communities where the workload is relevant. Contribute a synthetic reconciliation example, operational lesson, or transparent methodology; never expose private customer queries or records.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-quickstart",
+    "expected_skills": [
+      "data-product-quickstart"
+    ],
+    "prompt": "For this fictional product, complete the Quickstart task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Use synthetic or authorized records with explicit schema, expected keys/values, reconciliation checks, connector permissions, resource caps, and cleanup. A green connection or sample dashboard alone is not the success assertion.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-audience-research",
+    "expected_skills": [
+      "data-product-audience-research"
+    ],
+    "prompt": "For this fictional product, complete the Audience research task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Compare segments by source-to-consumer workflow, correctness/freshness need, access authority, and operational ownership. Distinguish analyst interest, engineering evaluation, platform review, and budget authority.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-competitive-research",
+    "expected_skills": [
+      "data-product-competitive-research"
+    ],
+    "prompt": "For this fictional product, complete the Competitive research task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Compare the workload against SQL jobs, open-source connectors, and managed platforms. Require equivalent update/delete semantics, reconciliation, freshness, failure recovery, access model, and cost conditions before claiming superiority.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-content-production",
+    "expected_skills": [
+      "data-product-content-production"
+    ],
+    "prompt": "For this fictional product, complete the Content production task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "For guides state data provenance, shape, transformations, expected invariants, access scope, reconciliation, and operating limits. Label synthetic records and illustrative charts; do not publish a performance conclusion without equivalent, reproducible workloads.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-content-strategy",
+    "expected_skills": [
+      "data-product-content-strategy"
+    ],
+    "prompt": "For this fictional product, complete the Content strategy task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Build around source/destination behavior, schema changes, late arrivals, reconciliation, freshness, governance, and workload cost. Require a verified example or defensible evidence for each proposed connector or performance topic.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-copywriting",
+    "expected_skills": [
+      "data-product-copywriting"
+    ],
+    "prompt": "For this fictional product, complete the Copywriting task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Anchor copy in the data workflow and the output users can validate. Qualify freshness, correctness, scale, and cost claims; distinguish connectivity from correct recurring operation. Offer a sample or approved workload evaluation with clear prerequisites.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-customer-psychology",
+    "expected_skills": [
+      "data-product-customer-psychology"
+    ],
+    "prompt": "For this fictional product, complete the Customer psychology task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Investigate concern about silent corruption, credential scope, data movement, migration, or operating a failed workload. Offer reconciliation evidence and an approved bounded evaluation; retain governance controls rather than treating them as persuasion problems.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-data-analysis",
+    "expected_skills": [
+      "data-product-data-analysis"
+    ],
+    "prompt": "For this fictional product, complete the Data analysis task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Choose workload/workspace/account identities deliberately. Separate sample runs, valid real-data output, reconciliation, recurring approved operation, and paid adoption. Include empty/failed runs, freshness, operating cost, and complete observation windows.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-google-ads",
+    "expected_skills": [
+      "data-product-google-ads"
+    ],
+    "prompt": "For this fictional product, complete the Google ads task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Tie query groups to supported source/destination workloads and buying context. Qualify access, platform fit, correctness needs, and an evaluation owner; account for delayed enterprise qualification and distinguish students from deployable accounts.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-landing-pages",
+    "expected_skills": [
+      "data-product-landing-pages"
+    ],
+    "prompt": "For this fictional product, complete the Landing pages task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Organize the page around workload, source-to-destination flow, supported semantics, reconciliation evidence, permissions, cost, and evaluation. Separate credential-free sample access from approved real-data setup instead of promising instant production access.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-marketing-background",
+    "expected_skills": [
+      "data-product-marketing-background"
+    ],
+    "prompt": "For this fictional product, complete the Marketing background task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Record source and destination, data sensitivity, update patterns, schema, freshness/correctness requirements, access owner, and workload economics. Define reconciled real-data output and approved recurring operation separately.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-marketing-plan",
+    "expected_skills": [
+      "data-product-marketing-plan"
+    ],
+    "prompt": "For this fictional product, complete the Marketing plan task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Sequence workload-specific demand, access approval, representative correctness evaluation, and operating ownership. If credentials or reconciliation block progress, resolve that path before increasing demos. Measure approved real-data evaluations separately from sample runs.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-meta-ads",
+    "expected_skills": [
+      "data-product-meta-ads"
+    ],
+    "prompt": "For this fictional product, complete the Meta ads task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Judge whether a synthetic workflow explanation or proof asset reaches a credible evaluator. A content download does not establish platform authority or approved data access. Preserve data privacy and evaluate downstream workload fit.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-onboarding",
+    "expected_skills": [
+      "data-product-onboarding"
+    ],
+    "prompt": "For this fictional product, complete the Onboarding task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Map approved access, source connection, initial output, reconciliation, incremental changes, recurring runs, and production approval. Keep sample success and real-data success separate; show the next useful step while an administrator reviews access.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-product-launches",
+    "expected_skills": [
+      "data-product-product-launches"
+    ],
+    "prompt": "For this fictional product, complete the Product launches task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Verify connector behavior, approved evaluation data, reconciliation, access scope, cost limits, operating ownership, and recovery before choosing launch scope. A sample-only test can support a scoped beta claim, not unqualified production availability.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-seo-audit",
+    "expected_skills": [
+      "data-product-seo-audit"
+    ],
+    "prompt": "For this fictional product, complete the Seo audit task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Inspect connector and workload pages for distinct supported semantics, source evidence, evaluation instructions, and appropriate canonical structure. Check whether thin integration permutations obscure the useful documentation and proof.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-seo-research",
+    "expected_skills": [
+      "data-product-seo-research"
+    ],
+    "prompt": "For this fictional product, complete the Seo research task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Separate conceptual education from operational source/destination, schema, recovery, freshness, and cost queries. A connector page needs verified behavior and a distinct task; do not map every possible product pair to an indexable page.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-conference-pipeline",
+    "expected_skills": [
+      "data-product-conference-pipeline"
+    ],
+    "prompt": "For this fictional product, complete the Conference pipeline task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Use synthetic records and a workload-evaluation worksheet. Qualify source/destination, correctness/freshness need, access owner, and platform approval without collecting sensitive data. Track agreed evaluations separately from scans and conversations.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-integration-marketing",
+    "expected_skills": [
+      "data-product-integration-marketing"
+    ],
+    "prompt": "For this fictional product, complete the Integration marketing task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Verify source, transformation, destination, schema/update semantics, credentials, reconciliation, freshness, partial failures, and recovery. Connectivity alone does not prove correct operation; distinguish a tested supported connector from a custom example.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-pricing",
+    "expected_skills": [
+      "data-product-pricing"
+    ],
+    "prompt": "For this fictional product, complete the Pricing task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Compare meters against volume, scan/compute behavior, concurrency, refresh frequency, retention, egress, and operating cost. Explain metering semantics, retries, failed jobs, predictability, and spend controls with explicitly observed or illustrative workloads.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-proof",
+    "expected_skills": [
+      "data-product-proof"
+    ],
+    "prompt": "For this fictional product, complete the Proof task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Prove equivalent output and semantics before comparing workload speed or cost. Record dataset shape and skew, updates, cache state, concurrency, freshness, failures, resources, repeated runs, and uncertainty. Include unfavorable conditions and limitations.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  },
+  {
+    "id": "data-product-data-product-sales-enablement",
+    "expected_skills": [
+      "data-product-sales-enablement"
+    ],
+    "prompt": "For this fictional product, complete the Sales enablement task. FlowLake is a fictional incremental ingestion product. A synthetic source-to-warehouse sample works, but real data needs approved credentials and reconciliation. Sample completion is not production approval. Update, delete, late-arrival, freshness, and recovery behavior must be verified rather than assumed. Work with available facts and mark evidence gaps.",
+    "must_include": [
+      "Turn a reconciled evaluation slice into an honest decision memo: source/destination fit, approved data boundary, recovery, recurring operation, procurement, cost predictability, and owner. State remaining production tests and a no-go option.",
+      "Concrete deliverable with evidence limits"
+    ],
+    "must_avoid": [
+      "Invented product capabilities or results",
+      "Unauthorized external actions"
+    ]
+  }
+]

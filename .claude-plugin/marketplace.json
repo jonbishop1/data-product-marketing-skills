@@ -1,0 +1,15 @@
+{
+  "name": "jon-bishop-data-product",
+  "description": "Data-product marketing skills by Jon Bishop.",
+  "owner": {
+    "name": "Jon Bishop",
+    "url": "https://jonbishop.co"
+  },
+  "plugins": [
+    {
+      "name": "data-product-marketing-skills",
+      "source": "./",
+      "description": "25 open-source marketing skills for data products: research, content, acquisition, technical evaluation, activation, proof, pricing, and sales."
+    }
+  ]
+}
