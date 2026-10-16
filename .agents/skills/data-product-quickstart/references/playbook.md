@@ -24,9 +24,9 @@ Use synthetic or authorized data, state schema and expected rows or invariants, 
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: A runnable guide, expected outputs and success checks, failure recovery, cleanup, and a precise tested-versus-untested record.
+Proposed synthetic test: five rows, keys 1–5, status="new". Reconcile exact keys, values and multiplicities at destination. Update source key 3 to status="ready"; after a documented sync/checkpoint condition, expect exactly five rows and only key 3 changed. This is an unexecuted invariant, not verified propagation. Missing connector syntax stays a labelled command placeholder. On interruption inspect documented checkpoint/retry behavior; do not reload into the same target until duplicate/idempotency and cost effects are known. Use a disposable destination for an authorized recovery experiment.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

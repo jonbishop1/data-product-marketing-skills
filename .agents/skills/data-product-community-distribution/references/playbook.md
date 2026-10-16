@@ -24,9 +24,9 @@ Bring specific source/warehouse patterns, reconciliation lessons, operational ex
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: A channel-fit map, useful contribution drafts, affiliation and rule checks, reply ownership, and a proportionate measurement plan.
+Draft reply: "A green connector is only the first check. Reconcile exact keys and values, then update one known row and check the resulting state. Test deletes separately rather than inferring them from the initial load. [Affiliation: add your actual relationship before posting.] A five-row synthetic case is enough to start testing those semantics." No customer records or invented authorship; no post was sent.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 

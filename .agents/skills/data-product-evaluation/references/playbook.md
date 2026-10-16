@@ -24,9 +24,9 @@ Focus on the actual source-to-consumer workload, not the easiest demo. Separate 
 | Meaningful result and verification | |
 | Unknowns, failure, and stop condition | |
 
-## Worked application
+## Completed example
 
-For this scenario, apply the task-specific method above and deliver: An evaluation charter, workload and correctness plan, result table or runnable test plan, cost and access boundaries, and a decision memo.
+Already authorized: synthetic data only. Initial 100-row key/value equality observed. Next proposed cases: update key 7 and expect one changed value with count unchanged; delete key 9 and expect exactly that key absent; replay an event to test duplicate multiplicity; deliver an older version after a newer one and compare with the intended documented conflict rule. Recovery experiment: interrupt an isolated test only through a supported mechanism and reconcile after documented resume. None are observed passes yet. No real-data collection is needed for these semantics tests; scale and production fit remain outside their proof.
 
 Do not assume missing capabilities or report proposed tests as completed. A useful answer identifies what is known, finishes the requested artifact within that scope, and names the next bounded verification when needed.
 
